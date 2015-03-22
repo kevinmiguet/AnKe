@@ -1,0 +1,77 @@
+/* Global Styles */
+ 
+*{
+    padding: 0; /* Reset all padding to 0 */
+    margin: 0; /* Reset all margin to 0 */
+}
+ 
+body{
+    background: #DF7401; /* Set HTML background color */
+    font: 14px "Lucida Grande";  /* Set global font size & family */
+    color: #000000; /* Set global text color */
+}
+ 
+p{
+    margin: 10px 0px 10px 0px; /* Add some padding to the top and bottom of the <p> tags */
+    color: #000000; /* Set header heading(top left title ) color */
+}
+ 
+/* Header */
+ 
+#header{
+    height: 45px; /* Set header height */
+    background: #183152; /* Set header background color */
+    top:0px;
+}
+ 
+#header h3{
+	
+	color:#DF7401; /* Set header heading(top left title ) color */
+    padding-left:12px; /* Set padding, to center it within the header */
+    font-weight: normal; /* Set font weight to normal, default it was set to bold */
+}
+ 
+/* Wrap */
+ 
+#wrap{
+    background: #FFFFFF; /* Set content background to white */
+    width: 615px; /* Set the width of our content area */
+    margin: 0 auto; /* Center our content in our browser */
+    margin-top: 50px; /* Margin top to make some space between the header and the content */
+    padding: 10px; /* Padding to make some more space for our text */
+    border: 1px solid #183152; /* Small border for the finishing touch */
+    text-align: center; /* Center our content text */
+}
+ 
+#wrap h3{
+    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+    color: #183152; /* Set header heading(top left title ) color */
+}
+ 
+/* Form & Input field styles */
+ 
+form{
+    margin-top: 10px; /* Make some more distance away from the description text */
+}
+ 
+form .submit_button{
+    background: #F9F9F9; /* Set button background */
+    border: 1px solid #DFDFDF; /* Small border around our submit button */
+    padding: 8px; /* Add some more space around our button text */
+    color: #000000; /* Set header heading(top left title ) color */
+}
+ 
+/*input{
+    font: normal 16px Georgia; /* Set font for our input fields 
+    border: 1px solid #183152; /* Small border around our input field 
+    padding: 8px; /* Add some more space around our text 
+    color: #DF7401;
+}*/
+
+#wrap .statusmsg{
+    font-size: 12px; /* Set message font size  */
+    padding: 3px; /* Some padding to make some more space for our text  */
+    background: #183152; /* Add a background color to our status message   */
+    border: 1px solid #DFDFDF; /* Add a border arround our status message   */
+}
+
